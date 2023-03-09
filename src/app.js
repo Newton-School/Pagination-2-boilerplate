@@ -4,12 +4,6 @@ const mongoose = require('mongoose');
 const { off } = require('../models/user.js');
 var users   =require("../models/user.js");
 
-//connect to DB
-const url = process.env.DATABASE_URL || "mongodb://localhost/users";
-mongoose.connect(url,{ useNewUrlParser: true, useUnifiedTopology: true }, () => {
-    console.log('connected to DB')
-})
-
 
 // Import routes
 

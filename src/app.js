@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const { off } = require('../models/user.js');
-var users   =require("../models/user.js");
+const users   =require("../models/user.js");
 
 
 // Import routes
